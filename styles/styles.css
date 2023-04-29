@@ -5,19 +5,18 @@
     --bg-color: #fff866;
     --joke-bg: #010102;
     --text-color: #fff;
-    --btn-color: 
+    --btn-color: #ffba2f;
 }
 /* General styles */
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
 }
 body {
     background-color: var(--bg-color);
     font-family: 'Poppins';
 }
-
-
 
 /* Personal Styles */
 #wrapper {
@@ -49,5 +48,11 @@ body {
     width: 150px;
 }
 #btn {
-    padding: 10px 14px;
+    padding: 16px 20px;
+    background-color: var(--btn-color);
+    border: none;
+    border-radius:8px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    font-weight: 800;
 }
